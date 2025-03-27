@@ -25,7 +25,7 @@ export const footerDetails: {
     email: 'admin@nikpatil.com',
     telephone: '+91 8668289459',
     socials: {
-        github: 'https://github.com/nikhilpatil12/blaze-feeds',
+        github: 'https://github.com/nikhilpatil12',
         x: 'https://x.com/Nikhil1298',
         // facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',

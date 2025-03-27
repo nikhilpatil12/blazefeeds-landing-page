@@ -25,6 +25,19 @@ export const faqs: IFAQ[] = [
     {
         question: 'Is Blaze Feeds free to use?',
         answer: 'Yes! Blaze Feeds offers a free tier with essential features. For advanced options like unlimited feeds, custom themes, and AI-powered summaries, we offer a Pro plan.',
+    },
+    {
+        question: 'Does Blaze Feeds support AI-powered article summarization?',
+        answer: 'Yes! Blaze Feeds provides AI-generated summaries for articles, making it easier to skim through news and updates quickly.',
+    },
+    {
+        question: 'Which AI services does Blaze Feeds support for summarization?',
+        answer: 'Currently, Blaze Feeds supports AI summarization using Google and OpenAI. We may add support for more services in the future.',
+    },
+    {
+        question: 'Do I need an API key for AI summarization?',
+        answer: 'Yes, to use AI summarization, you must provide your own API key for Google or OpenAI. This ensures flexibility and control over usage limits and costs.',
     }
+    
     
 ];
