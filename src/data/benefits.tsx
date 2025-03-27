@@ -23,7 +23,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiSliders size={26} />
             },
         ],
-        imageSrc: "/images/animated.gif"
+        imageSrc: "/images/mockup-1.gif"
     },
     {
         title: "Stay in Control of Your Feeds",
