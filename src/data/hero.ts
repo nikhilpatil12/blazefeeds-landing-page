@@ -1,5 +1,6 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
+    heading: 'A Smarter Way to Stay Updated',
+    subheading: 'Your News, Your Way. Anywhere. Anytime.',
+    paragraph: 'Blaze Feeds is a modern and sleek RSS reader designed for those who want a fast, distraction-free way to stay updated across their favorite sources. Whether you\'re on macOS, iOS, iPadOS, or Android, your news syncs seamlessly, keeping you informed wherever you go.',
+    centerImageSrc: '/images/hero-mockup.png',
 }

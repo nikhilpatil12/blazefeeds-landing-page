@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
+    heading: "Be the First to Experience Blaze Feeds",
+    subheading: "A sleek, cross-platform RSS reader built for modern users. Sign up now to get early access and stay updated on the launch!",
+    appStoreUrl: "#",  // Update with actual links when available
+    googlePlayUrl: "#"
 }

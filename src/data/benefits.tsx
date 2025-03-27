@@ -1,72 +1,74 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiBarChart2, FiBriefcase, FiDollarSign, FiDownload, FiFolder, FiLock, FiMonitor, FiPieChart, FiRss, FiShield, FiSliders, FiTarget, FiTrendingUp, FiUser, FiZap } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
+import { BsFillHddNetworkFill } from "react-icons/bs";
+import { FaAffiliatetheme } from "react-icons/fa6";
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Seamless Reading, Anywhere",
+        description: "Stay updated across macOS, iOS, iPadOS, and Android with real-time feed synchronization.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
+                title: "FreshRSS Integration",
+                description: "Sync effortlessly with FreshRSS, with support for more services coming soon.",
+                icon: <FiRss size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
+                title: "Beautiful & Minimalist UI",
+                description: "A sleek, distraction-free reading experience tailored for modern users.",
+                icon: <FiMonitor size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
+                title: "Customizable Reading Experience",
+                description: "Switch between light and dark mode, customize fonts, and personalize your reading style.",
+                icon: <FiSliders size={26} />
+            },
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/animated.gif"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Stay in Control of Your Feeds",
+        description: "Organize, filter, and tailor your news to focus on what matters most.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
+                title: "Smart Feed Management",
+                description: "Organize feeds with folders, filters, and tags to keep your news structured.",
+                icon: <FiFolder size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
+                title: "Offline Reading",
+                description: "Save articles for offline access and read them anytime, anywhere.",
+                icon: <FiDownload size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
+                title: "AI-Powered Summaries",
+                description: "Get instant article summaries powered by AI, so you can consume news faster.",
+                icon: <FiZap size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
+        imageSrc: "/images/mockup-2.png"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Your Data, Your Privacy",
+        description: "Blaze Feeds ensures your data stays secure and private, with no ads or tracking.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Encrypted Backups",
+                description: "Your data is securely encrypted when backed up, ensuring safe restores.",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                title: "Private & Secure Syncing",
+                description: "Your feeds sync securely across devices without exposing your reading history.",
                 icon: <FiUser size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                title: "No Ads, No Tracking",
+                description: "Blaze Feeds respects your privacy—no ads, no tracking, just pure content.",
                 icon: <FiShield size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/mockup-3.png"
     },
 ]
