@@ -1,8 +1,6 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiDownload, FiFolder, FiLock, FiMonitor, FiPieChart, FiRss, FiShield, FiSliders, FiTarget, FiTrendingUp, FiUser, FiZap } from "react-icons/fi";
+import { FiDownload, FiFolder, FiLock, FiMonitor, FiRss, FiShield, FiSliders, FiUser, FiZap } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
-import { BsFillHddNetworkFill } from "react-icons/bs";
-import { FaAffiliatetheme } from "react-icons/fa6";
 
 export const benefits: IBenefit[] = [
     {
