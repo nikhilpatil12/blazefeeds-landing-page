@@ -32,11 +32,11 @@ export const faqs: IFAQ[] = [
     },
     {
         question: 'Which AI services does Blaze Feeds support for summarization?',
-        answer: 'Currently, Blaze Feeds supports AI summarization using Google and OpenAI. We may add support for more services in the future.',
+        answer: 'Currently, Blaze Feeds supports AI summarization using Ollama, Google and OpenAI. We may add support for more services in the future.',
     },
     {
         question: 'Do I need an API key for AI summarization?',
-        answer: 'Yes, to use AI summarization, you must provide your own API key for Google or OpenAI. This ensures flexibility and control over usage limits and costs.',
+        answer: 'Yes, to use AI summarization, you need to either use self hosted Ollama or provide your API key for the service you want to use. Blaze Feeds does not store your API key, and it is only used to fetch summaries for your articles.',
     }
     
     
