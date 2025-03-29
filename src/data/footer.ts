@@ -18,15 +18,15 @@ export const footerDetails: {
             url: "#pricing"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "FAQ",
+            url: "#faq"
         }
     ],
-    email: 'admin@nikpatil.com',
+    email: 'info@nikpatil.com',
     telephone: '+91 8668289459',
     socials: {
         github: 'https://github.com/nikhilpatil12',
-        x: 'https://x.com/Nikhil1298',
+        x: 'https://x.com/GemridgeStudio',
         // facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com/in/nikhilpatil12/',

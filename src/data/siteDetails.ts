@@ -2,8 +2,8 @@ export const siteDetails = {
     siteName: 'Blaze Feeds',
     siteUrl: 'https://blazefeeds.nikpatil.com/',
     metadata: {
-        title: "Blaze Feeds - A Sleek, Cross-Platform RSS Reader",
-        description: "Blaze Feeds is a modern RSS reader designed for macOS, iOS, iPadOS, and Android. Sync seamlessly with FreshRSS and enjoy a distraction-free reading experience.",
+        title: "Blaze Feeds – AI Powered RSS Reader | Fast, Customizable & Cross-Platform",
+        description: "Stay updated effortlessly with Blaze Feeds, the AI-powered RSS reader that delivers smart summarization, deep customization, and FreshRSS support. Coming soon for seamless news consumption!",
     },
     language: 'en-us',
     locale: 'en-US',
