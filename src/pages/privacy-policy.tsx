@@ -91,12 +91,6 @@ export default function PrivacyPolicy() {
           </Link>
         </div>
       </main>
-
-      <style jsx global>{`
-        body {
-          font-family: 'Inter', sans-serif;
-        }
-      `}</style>
     </>
   );
 }
