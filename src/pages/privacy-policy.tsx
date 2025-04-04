@@ -61,12 +61,12 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-2xl font-semibold text-gray-900 leading-snug">5. Data Security</h2>
             <p className="mt-2 text-lg">
-              We implement security measures to protect user data. However, we <b>do not store API keys</b>, and all AI requests are handled <b>directly from the user's device</b>.
+              We implement security measures to protect user data. However, we <b>do not store API keys</b>, and all AI requests are handled <b>directly from the user&rsquo;s device</b>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold text-gray-900 leading-snug">6. Children's Privacy</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 leading-snug">6. Children&rsquo;s Privacy</h2>
             <p className="mt-2 text-lg">Our app is <b>not intended for children under 13</b>, and we do not knowingly collect data from minors.</p>
           </div>
 
