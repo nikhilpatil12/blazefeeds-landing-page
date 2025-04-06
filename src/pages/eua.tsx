@@ -8,7 +8,7 @@ const EndUserAgreement = () => {
       
       <section style={styles.section}>
         <p>
-          This End User Agreement ("Agreement") is a legal contract between you ("User") and GemRidge App Studio ("Company"). By using this application ("App"), you agree to be bound by the terms and conditions set forth herein.
+          This End User Agreement (&quot;Agreement&quot;) is a legal contract between you (&quot;User&quot;) and GemRidge App Studio (&quot;Company&quot;). By using this application (&quot;App&quot;), you agree to be bound by the terms and conditions set forth herein.
         </p>
       </section>
       
