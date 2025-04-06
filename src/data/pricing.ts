@@ -2,8 +2,9 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Starter',
+        name: 'Basic',
         price: 'Free',
+        type: 'free',
         features: [
             '1 FreshRSS Account',
             'Upto 5 RSS feeds',
@@ -14,7 +15,8 @@ export const tiers: IPricing[] = [
     },
     {
         name: 'Pro Subscription',
-        price: 2,
+        price: '$1.99',
+        type: 'subscription',
         features: [
             'Multiple FreshRSS accounts',
             'Unlimited RSS feeds',
@@ -23,9 +25,22 @@ export const tiers: IPricing[] = [
             'Custom App Icons',
         ],
     },
+    // {
+    //     name: 'Pro Subscription',
+    //     price: '$19.99',
+    //     type: 'subscription-yearly',
+    //     features: [
+    //         'Multiple FreshRSS accounts',
+    //         'Unlimited RSS feeds',
+    //         'AI Summarization',
+    //         'Custom Themes',
+    //         'Custom App Icons',
+    //     ],
+    // },
     {
         name: 'One time Purchase',
-        price: '$40',
+        price: '$30',
+        type: 'onetime',
         features: [
             'Multiple FreshRSS accounts',
             'Unlimited RSS feeds',
