@@ -22,7 +22,7 @@ export const tiers: IPricing[] = [
             'Unlimited RSS feeds',
             'AI Summarization',
             'Custom Themes',
-            'Custom App Icons',
+            'Custom App Icons on iOS & MacOS',
         ],
     },
     // {
@@ -46,7 +46,7 @@ export const tiers: IPricing[] = [
             'Unlimited RSS feeds',
             'AI Summarization',
             'Custom Themes',
-            'Custom App Icons',
+            'Custom App Icons on iOS & MacOS',
         ],
     },
 ]
