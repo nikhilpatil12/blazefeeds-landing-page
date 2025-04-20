@@ -36,7 +36,7 @@ export default function Support() {
             Need Help?
           </h2>
           <p className="text-gray-60 mb-6">
-            We're here to help! Browse our FAQs or contact us directly.
+            We&#39;re here to help! Browse our FAQs or contact us directly.
           </p>
         </section>
 
