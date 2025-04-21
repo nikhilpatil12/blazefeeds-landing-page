@@ -3,6 +3,7 @@ import { ctaDetails } from "@/data/cta"
 import AppStoreButton from "./AppStoreButton"
 import PlayStoreButton from "./PlayStoreButton"
 import Link from "next/link"
+import TestFlightButton from "./TestFlightButton"
 
 const CTA: React.FC = () => {
     return (
@@ -18,13 +19,14 @@ const CTA: React.FC = () => {
 
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
-                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeDPTINLAziDs8P47aXqmynccWJWT9C6C_-Q11tJgwoPZPx7g/viewform?usp=header" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                        <Link href="/signup" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
                                 Signup
                         </Link>
 
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
                             <AppStoreButton />
                             <PlayStoreButton />
+                            <TestFlightButton />
                         </div>
                     </div>
                 </div>
