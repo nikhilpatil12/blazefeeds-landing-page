@@ -3,7 +3,6 @@ import clsx from 'clsx'
 import Image from 'next/image'
 
 import { ctaDetails } from '@/data/cta'
-import { FaIcons } from 'react-icons/fa6'
 
 const TestFlightButton = ({ dark }: { dark?: boolean }) => {
     return (
