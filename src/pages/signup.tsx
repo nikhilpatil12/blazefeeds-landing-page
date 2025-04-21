@@ -36,9 +36,9 @@ const SignupPage: React.FC = () => {
 
         await supabase.functions.invoke("save-signup", {
             body: {
-                email: email,
-                platforms: selectedPlatforms,
-                app: "blaze-feeds"
+            email: email,
+            platforms: `{${selectedPlatforms.join(',')}}`,
+            app: "blazefeeds"
             },
         }).then(() => {
             setSubmitted(true);
