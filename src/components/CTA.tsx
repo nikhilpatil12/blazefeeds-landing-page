@@ -3,7 +3,6 @@ import { ctaDetails } from "@/data/cta"
 import AppStoreButton from "./AppStoreButton"
 import PlayStoreButton from "./PlayStoreButton"
 import Link from "next/link"
-import TestFlightButton from "./TestFlightButton"
 
 const CTA: React.FC = () => {
     return (

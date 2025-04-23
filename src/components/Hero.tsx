@@ -5,7 +5,6 @@ import AppStoreButton from './AppStoreButton';
 import PlayStoreButton from './PlayStoreButton';
 
 import { heroDetails } from '@/data/hero';
-import TestFlightButton from './TestFlightButton';
 
 const Hero: React.FC = () => {
     return (
