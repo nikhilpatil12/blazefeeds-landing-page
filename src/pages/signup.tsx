@@ -58,7 +58,7 @@ const SignupPage: React.FC = () => {
                     You will be sent a link to join beta on the interested platform.
                     iOS and Android builds are currently under beta testing, while we are working on the macOS build, which should be available soon.
                 </h1>
-                <h1 className="text mb-6 text-center">You can join the iOS TestFlight directly <a className="text-secondary" href="https://testflight.apple.com/join/przEqEEN">here</a>.</h1>
+                <h1 className="text mb-6 text-center">The app is now live one the <a className="text-secondary" href="https://apps.apple.com/in/app/blaze-feeds/id6743965767">Apple App Store</a>.</h1>
                 {submitted ? (
                 <div>
                     <p className="text-green-600 text-center">Thank you for signing up!</p>
