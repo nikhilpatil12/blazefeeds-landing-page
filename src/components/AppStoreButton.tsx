@@ -18,7 +18,7 @@ const AppStoreButton = ({ dark }: { dark?: boolean }) => {
                 </div>
                 <div>
                     <div className="text-xs">
-                        Coming soon on
+                        Available now on
                     </div>
                     <div className="-mt-1 font-sans text-xl font-semibold">
                         App Store

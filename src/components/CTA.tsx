@@ -26,7 +26,7 @@ const CTA: React.FC = () => {
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
                             <AppStoreButton />
                             <PlayStoreButton />
-                            <TestFlightButton />
+                            {/* <TestFlightButton /> */}
                         </div>
                     </div>
                 </div>
