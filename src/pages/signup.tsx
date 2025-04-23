@@ -4,7 +4,7 @@ import '../app/globals.css';
 
 const platforms = [
     { label: "Android", value: "android" },
-    { label: "iOS", value: "ios" },
+    // { label: "iOS", value: "ios" },
     { label: "macOS", value: "macos" },
 ];
 
@@ -56,7 +56,7 @@ const SignupPage: React.FC = () => {
                 <h2 className="text-3xl font-semibold mb-6 text-center">Sign Up for Blaze Feeds Beta</h2>
                 <h1 className="text-sm mb-6 text-center">
                     You will be sent a link to join beta on the interested platform.
-                    iOS and Android builds are currently under beta testing, while we are working on the macOS build, which should be available soon.
+                    iOS app is now on the App Store and Android builds are currently under beta testing, while we are working on the macOS build, which should be available soon.
                 </h1>
                 <h1 className="text mb-6 text-center">The app is now live one the <a className="text-secondary" href="https://apps.apple.com/in/app/blaze-feeds/id6743965767">Apple App Store</a>.</h1>
                 {submitted ? (
