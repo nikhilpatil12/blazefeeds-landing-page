@@ -12,6 +12,7 @@
     "@headlessui/react": "^2.2.2",
     "@next/third-parties": "^14.2.28",
     "@supabase/supabase-js": "^2.49.4",
+    "caniuse-lite": "^1.0.30001717",
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.2",
     "next": "^14.2.28",
